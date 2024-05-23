@@ -1,0 +1,46 @@
+img{
+  width: 340px;
+  z-index: 0;
+position: relative;
+}
+
+.images{
+  width: 340px;
+  height: 340px;
+  position: relative;
+  z-index: 2;
+}
+
+.images:hover{
+  width: 340px;
+  height: 340px;
+  transition: all 0.3s ease-in-out;
+  background-color: #1a1e5d;
+  z-index: 2;
+
+}
+
+.heading{
+  font-size: 20px;
+  font-weight: 600;
+  color: orange;
+  font-family:"Pacifico", cursive;
+}
+
+.services-title{
+  font-size: 53px;
+  font-weight: 700;
+}
+
+.context{
+  margin-top: 26px;
+  font-size: 16px;
+  font-weight: 600;
+  color: orange;
+  font-family:"Pacifico", cursive;
+}
+.service-varity{
+  font-size: 24px;
+  font-weight: 700;
+
+}

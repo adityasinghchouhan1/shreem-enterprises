@@ -1,0 +1,95 @@
+.container{
+  display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+
+.heading{
+  font-size: 20px;
+  font-weight: 600;
+  color: orange;
+  font-family:"Pacifico", cursive;
+}
+
+.services-title{
+  font-size: 53px;
+  padding-left: 100px;
+  font-weight: 700;
+  width: 1000px;
+  text-align: center;
+}
+
+.service-cards-section{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+  margin-top: 80px;
+  height: 200px;
+}
+
+.service-cards-img{
+  width: 130px;
+  height: 130px;
+  margin-left: 40px;
+}
+
+.service-cards-img:hover{
+  width: 130px;
+  height: 130px;
+  margin-left: 40px;
+transform: scale(0.9);
+transition: ease-out 0.2s ;
+
+}
+
+.service-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 15px;
+  height: 190px;
+}
+.service-name{
+  font-size: 22px;
+  font-weight: 600;
+  text-align: start;
+  margin-left: 30px;
+}
+
+.discription{
+  opacity: 0.7;
+  font-size: 15px;
+  text-align: start;
+  margin-left: 30px;
+}
+
+.read-btn{
+  margin-top: 25px;
+  margin-left: 20px;
+  background-color: white;
+  border: none;
+  font-size: 13px;
+  font-weight: 600;
+  width: 120px;
+
+}
+
+.read-btn:hover{
+  margin-top: 25px;
+  margin-left: 20px;
+  background-color: white;
+  border: none;
+  font-size: 13px;
+  font-weight: 600;
+  color: orange;
+  width: 120px;
+text-decoration:underline orange;
+transition: ease-out 0.3s ;
+transform: translateX(10px);
+}
+
+.read-btn-arrow{
+  font-size: 20px;
+  color: black;
+
+}
