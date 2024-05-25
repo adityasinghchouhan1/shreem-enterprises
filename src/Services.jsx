@@ -20,15 +20,17 @@ const Services = () => {
     },
   ];
   return (
-    <div className="container d-flex flex-wrap flex-column">
-      <p className="heading">Our Core Features</p>
-      <h1 className="services-title">Experience Allows Us To</h1>
-      <h1 className="services-title">Printing Things</h1>
-      <div className="d-flex flex-wrap justify-content-center  mt-5">
+    <div className="container bg-light pb-5">
+      <div className=" text-center ">
+        <p className="heading">Our Core Features</p>
+        <h1 className="services-title">Experience Allows Us To</h1>
+        <h1 className="services-title">Printing Things</h1>
+      </div>
+      <div className="col-12 d-flex flex-wrap justify-content-center  mt-5">
         {servicesData.map((items) => (
           <div className="m-3">
             <div className="images">
-              <img src={items.imgs} alt="" />
+              <img src={items.imgs} alt="" className="img" />
             </div>
             <div className="context">{items.context}</div>
             <div className="service-varity">{items.name}</div>

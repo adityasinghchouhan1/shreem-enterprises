@@ -1,14 +1,11 @@
-img{
+.img{
   width: 340px;
-  z-index: 0;
-position: relative;
 }
 
 .images{
   width: 340px;
   height: 340px;
-  position: relative;
-  z-index: 2;
+  background-color: #1a1e5d;
 }
 
 .images:hover{
@@ -16,7 +13,7 @@ position: relative;
   height: 340px;
   transition: all 0.3s ease-in-out;
   background-color: #1a1e5d;
-  z-index: 2;
+
 
 }
 
