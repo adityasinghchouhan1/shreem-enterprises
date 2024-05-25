@@ -1,6 +1,7 @@
 .containers {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   flex-wrap: wrap;
   background-color:none;
   margin-top: 80px;
