@@ -5,8 +5,8 @@ import "./App.css";
 function App() {
   return (
     <>
-      <Services></Services>
       <About></About>
+      <Services></Services>
       <ServicesType></ServicesType>
     </>
   );

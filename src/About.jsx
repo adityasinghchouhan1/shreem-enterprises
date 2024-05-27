@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import Group_img from "./assets/About-img/img_05.jpg";
+import play_icon from "./assets/About-img/play-icon.png";
 
 const about_icon = [
   {
@@ -32,48 +33,20 @@ const about_icon = [
 const About = () => {
   return (
     <>
-      {/* <div className="container">
-        <div className="heading text-center">
-          <h3>heading</h3>
-        </div>
-        <div className="row">
-          <div className="col-lg-6">
-            <div className="text-center">
-              <img src={Group_img} className="Group-img img-fluid"></img>
-            </div>
-          </div>
-          <div className="col-lg-6">
-            <div className="content justify-content-center text-center">
-              <p className="ms-4 opacity-75 fs-6">
-                Sed ut perspiciatis unde omnis iste natus error volupta
-                accusantiu dolorem laudantium totam rem aperam eaque quae ab
-                illo inventore veritatis et quasi architec
-              </p>
-              <div className="about-cards">
-                {about_icon.map((items) => (
-                  <div className="m-2">
-                    <div className="about-icons-div ms-3">
-                      <img src={items.imgs} alt="" className="about-icons" />
-                    </div>
-                    <div className="about-card-titel">{items.servicename}</div>
-                    <div className="about-card-description">
-                      {items.description}
-                    </div>
-                    <button className="readmore-btn ">READ MORE</button>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
       <div className="container d-flex justify-content-center flex-wrap background-icon ">
         <div className="">
           <p className="small-title">About Our Company</p>
-          <p className="big-title">Printing Your Dream Works With Printem</p>
+          <p className="big-title">
+            Printing Your Dream Works<br></br> With Printem
+          </p>
         </div>
-        <div className="d-flex justify-content-between flex-wrap mt-5 gap-2">
-          <img src={Group_img} className="Group-img ms-3"></img>
+        <div className="d-flex justify-content-around flex-wrap mt-5 gap-5">
+          <div className="d-flex">
+            <img src={Group_img} className="Group-img ms-3 z-0"></img>
+            <img src={play_icon} className="play-btn"></img>
+            <div className="ring"></div>
+            <div className="ring2"></div>
+          </div>
           <div className="about-content">
             <p className="ms-4 ps-3 opacity-75 fs-6 about-content-p">
               Sed ut perspiciatis unde omnis iste natus error volupta accusantiu
@@ -82,7 +55,7 @@ const About = () => {
             </p>
             <div className="about-cards">
               {about_icon.map((items) => (
-                <div className="m-2">
+                <div className="m-2 about-card">
                   <div className="about-icons-div ms-3">
                     <img src={items.imgs} alt="" className="about-icons" />
                   </div>
@@ -90,7 +63,7 @@ const About = () => {
                   <div className="about-card-description">
                     {items.description}
                   </div>
-                  <button className="readmore-btn">READ MORE</button>
+                  <button className="readmore-btn">READ MORE ➔</button>
                 </div>
               ))}
             </div>

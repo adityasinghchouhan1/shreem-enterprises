@@ -1,20 +1,16 @@
 .img{
   width: 340px;
 }
+.img:hover{
+  width: 340px;
+  transition: 0.4s ease-in-out;
+  transform:translate3d(15px,10px,10px);
+}
 
 .images{
   width: 340px;
-  height: 340px;
-  background-color: #1a1e5d;
-}
-
-.images:hover{
-  width: 340px;
-  height: 340px;
-  transition: all 0.3s ease-in-out;
-  background-color: #1a1e5d;
-
-
+  height: 320px;
+  background-color:orange;
 }
 
 .heading{
@@ -39,5 +35,7 @@
 .service-varity{
   font-size: 24px;
   font-weight: 700;
-
+  border: none;
+  background-color: white;
+  padding: 5px;
 }

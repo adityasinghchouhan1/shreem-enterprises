@@ -4,7 +4,7 @@
   justify-content: center;
   flex-wrap: wrap;
   background-color:none;
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 .heading {
@@ -25,7 +25,7 @@
 .service-cards-section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-  margin-top: 140px;
+  margin-top: 40px;
   height: 200px;
 }
 
@@ -51,11 +51,25 @@
   background-color: white ;
   margin: 15px;
   height: 190px;
+  box-shadow:0 0 10px 0 black;
+
+}
+
+.service-card:hover{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white ;
+  margin: 15px;
+  height: 190px;
+box-shadow:0 0 10px 1px orange;
+transition: ease-out 0.2s;
+
 }
 
 .service-name {
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 700;
   text-align: start;
   margin-left: 30px;
 }
@@ -89,7 +103,7 @@
   color: orange;
   width: 120px;
   text-decoration: underline orange;
-  transition: ease-out 0.3s;
+  transition: ease-out 0.5s;
   transform: translateX(10px);
 }
 
