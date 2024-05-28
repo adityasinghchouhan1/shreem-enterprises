@@ -6,8 +6,8 @@ function App() {
   return (
     <>
       <About></About>
-      <Services></Services>
       <ServicesType></ServicesType>
+      <Services></Services>
     </>
   );
 }

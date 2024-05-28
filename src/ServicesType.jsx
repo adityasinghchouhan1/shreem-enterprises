@@ -42,14 +42,14 @@ let typeOfservices = [
 
 const ServicesType = () => {
   return (
-    <div className="container">
+    <div className="">
       <div className="containers">
         <p className="heading">What We Offers</p>
         <p className="services-title">
           We Provide Lot’s Of Printing &<br></br> Branding Service
         </p>
 
-        <div className="service-cards-section">
+        <div className="d-flex flex-wrap justify-content-center col-12">
           {typeOfservices.map((items) => (
             <div className="service-card">
               <img src={items.images} alt="" className="service-cards-img" />

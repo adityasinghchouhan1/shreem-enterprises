@@ -33,7 +33,7 @@ const about_icon = [
 const About = () => {
   return (
     <>
-      <div className="container d-flex justify-content-center flex-wrap background-icon ">
+      <div className="d-flex justify-content-center flex-wrap background-icon">
         <div className="">
           <p className="small-title">About Our Company</p>
           <p className="big-title">
@@ -41,8 +41,8 @@ const About = () => {
           </p>
         </div>
         <div className="d-flex justify-content-around flex-wrap mt-5 gap-5">
-          <div className="d-flex">
-            <img src={Group_img} className="Group-img ms-3 z-0"></img>
+          <div className="d-flex m-2">
+            <img src={Group_img} className="Group-img z-0"></img>
             <img src={play_icon} className="play-btn"></img>
             <div className="ring"></div>
             <div className="ring2"></div>
