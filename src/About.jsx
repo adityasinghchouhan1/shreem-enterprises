@@ -33,15 +33,24 @@ const about_icon = [
 const About = () => {
   return (
     <>
+<<<<<<< HEAD
       <div className="d-flex justify-content-center flex-wrap background-icon">
+=======
+      <div className="d-flex justify-content-center flex-wrap text-center background-icon pb-5" id="about">
+>>>>>>> 1330081a77043604ee727284366f61d4b24c7a6b
         <div className="">
           <p className="small-title">About Our Company</p>
           <p className="big-title">
             Printing Your Dream Works<br></br> With Printem
           </p>
         </div>
+<<<<<<< HEAD
         <div className="d-flex justify-content-around flex-wrap mt-5 gap-5">
           <div className="d-flex m-2">
+=======
+        <div className="d-flex justify-content-center flex-wrap mt-5 gap-5 bg-white pb-5">
+          <div className="d-flex">
+>>>>>>> 1330081a77043604ee727284366f61d4b24c7a6b
             <img src={Group_img} className="Group-img z-0"></img>
             <img src={play_icon} className="play-btn"></img>
             <div className="ring"></div>
@@ -55,7 +64,7 @@ const About = () => {
             </p>
             <div className="about-cards">
               {about_icon.map((items) => (
-                <div className="m-2 about-card">
+                <div className=" about-card mt-4 ms-3 p-2">
                   <div className="about-icons-div ms-3">
                     <img src={items.imgs} alt="" className="about-icons" />
                   </div>

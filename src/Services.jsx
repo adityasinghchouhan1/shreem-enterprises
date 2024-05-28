@@ -20,8 +20,13 @@ const Services = () => {
     },
   ];
   return (
+<<<<<<< HEAD
     <div className=" bg-white pb-5 pt-5 mt-3">
       <div className=" text-center ">
+=======
+    <div className="bg-white pb-5 pt-5 mt-3 text-center" id="services">
+      <div className="">
+>>>>>>> 1330081a77043604ee727284366f61d4b24c7a6b
         <p className="heading">Our Core Features</p>
         <h1 className="services-title">Experience Allows Us To</h1>
         <h1 className="services-title">Printing Things</h1>
