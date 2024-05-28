@@ -22,13 +22,13 @@ padding-bottom: 40px;
 
 
 .Group-img{
-width:470px;
+width:35rem;
 border-bottom: 10px solid orange;
 border-top: 10px solid blue;
 }
 
 .Group-img:hover{
-  width:470px;
+  width:35rem;
   border-bottom: 10px solid blue;
   border-top: 10px solid orange;
   filter: blur(1px) saturate(1.2);
@@ -103,27 +103,30 @@ height: 500px;
 .about-content-p{
   text-align: start;
   border-left: 3px solid orange;
+  margin: 10px;
 }
 
 .about-cards{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   margin-top: 20px;
-  height: 200px;
+  height: 260px;
   text-align: start;
 }
 
 .about-cards:hover{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   margin-top: 20px;
-  height: 200px;
+  height: 260px;
   text-align: start;
 
 }
 
 .about-card{
-padding: 5px;
+  width: 230px;
+  padding: 30px;
+
 }
 .about-card:hover{
   box-shadow:0 0 10px 1px orange;

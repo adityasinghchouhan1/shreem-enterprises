@@ -1,0 +1,19 @@
+.bg-nav{
+  background-color:white;
+  color: black;
+  font-weight: bold;
+  height: 80px;
+}
+nav .nav-item{
+  color: #242222;
+}
+
+nav .nav-item:hover{
+  font-weight:bold ;
+  color: rgb(255, 179, 0);
+
+}
+.blackl{
+  color: black;
+  font-weight: 700;
+}
