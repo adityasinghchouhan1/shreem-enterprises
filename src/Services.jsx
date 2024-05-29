@@ -20,27 +20,29 @@ const Services = () => {
     },
   ];
   return (
-<<<<<<< HEAD
-    <div className=" bg-white pb-5 pt-5 mt-3">
+    <div className=" bg-white pb-5">
       <div className=" text-center ">
-=======
-    <div className="bg-white pb-5 pt-5 mt-3 text-center" id="services">
-      <div className="">
->>>>>>> 1330081a77043604ee727284366f61d4b24c7a6b
-        <p className="heading">Our Core Features</p>
-        <h1 className="services-title">Experience Allows Us To</h1>
-        <h1 className="services-title">Printing Things</h1>
-      </div>
-      <div className="col-12 d-flex flex-wrap justify-content-center  mt-5">
-        {servicesData.map((items) => (
-          <div className="m-3">
-            <div className="images">
-              <img src={items.imgs} alt="" className="img" />
-            </div>
-            <div className="context">{items.context}</div>
-            <div className="service-varity">{items.name}</div>
+        <div className="bg-white pb-5 pt-3 text-center" id="services">
+          <div className="">
+            <p className="heading">Our Core Features</p>
+            <h1 className="services-title">Experience Allows Us To</h1>
+            <h1 className="services-title">Printing Things</h1>
           </div>
-        ))}
+
+          <div className="col-12 d-flex flex-wrap justify-content-center  mt-5">
+            {servicesData.map((items) => (
+              <div className="m-3">
+                <div className="images">
+                  <img src={items.imgs} alt="" className="img" />
+                </div>
+
+                <div className="context">{items.context}</div>
+
+                <div className="service-varity">{items.name}</div>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );

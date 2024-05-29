@@ -5,7 +5,6 @@
   justify-content: center;
   flex-wrap: wrap;
   background-color:none;
-  margin-top: 50px;
 }
 
 .heading {
@@ -22,18 +21,15 @@
   
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 1330081a77043604ee727284366f61d4b24c7a6b
 
 .service-cards-img {
   width: 130px;
   height: 130px;
   margin-left: 40px;
+  margin-top: 10px;
 }
 
-.service-cards-img:hover {
+.service-card .service-cards-img:hover {
   width: 130px;
   height: 130px;
   margin-left: 40px;
@@ -42,46 +38,50 @@
 
 }
 
+
 .service-card {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: white ;
   margin: 15px;
-  height: 190px;
-  box-shadow:0 0 10px 0 black;
-<<<<<<< HEAD
+  box-shadow:0 0 6px 0 black;
   width: 35rem;
-
-=======
-width: 35rem;
->>>>>>> 1330081a77043604ee727284366f61d4b24c7a6b
+  padding-bottom: 10px;
 }
 
 .service-card:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white ;
   margin: 15px;
-  height: 190px;
 box-shadow:0 0 10px 1px orange;
-transition: ease-out 0.2s;
-
+transition: ease-out 0.5s;
+transform: scale(1.1);
+padding-bottom: 10px;
 }
+
+
 
 .service-name {
   font-size: 22px;
   font-weight: 700;
   text-align: start;
   margin-left: 30px;
+  padding-top: 10px;
+
 }
+
+
+
 
 .discription {
   opacity: 0.7;
-  font-size: 15px;
+  font-size: 13px;
+  font-weight: 600;
   text-align: start;
   margin-left: 30px;
+
 }
 
 
@@ -96,7 +96,7 @@ transition: ease-out 0.2s;
 
 }
 
-.read-btn:hover {
+.read-btn:hover  {
   margin-top: 25px;
   margin-left: 20px;
   background-color: white;
