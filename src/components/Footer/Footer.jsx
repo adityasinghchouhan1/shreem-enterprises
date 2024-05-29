@@ -5,8 +5,8 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer className="footer text-dark pt-4 h-100 w-100 ">
-    <div className="child">
-    <div className="container "> 
+    
+    <div className="containers "> 
         <div className="row ">
           <div className="col-md-3 mb-4 ">
             <h5 className="lblack ">Shreem Enterprises</h5>
@@ -83,7 +83,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      </div>
+      
 
     </footer>
   );

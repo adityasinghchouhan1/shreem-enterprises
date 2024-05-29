@@ -25,6 +25,13 @@ font-weight: 700;
 }
 .tc{
   background-color: white;
-  box-shadow:0 0 10px 1px #eeece9;
-  transition: ease-out 0.2s;
+
+}
+.heading12{
+  margin-top:70px;
+  
+}
+.tacp{
+margin-left: 100px;
+margin-right: 100px;
 }
