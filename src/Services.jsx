@@ -4,19 +4,19 @@ import "./Services.css";
 const Services = () => {
   const servicesData = [
     {
-      imgs: "./public/images/img_02.jpg",
-      context: "Any Type Of Printing",
-      name: "Design & Branding",
+      imgs: "./public/images/webDesingn34.png",
+      context: "Any Type Of Web Design",
+      name: "Web Design",
     },
     {
-      imgs: "./public/images/img_03.jpg",
-      context: "Any Type Of Printing",
-      name: "3d & Logo Printing",
+      imgs: "./public/images/uxui1.jpg",
+      context: "Any Type Of UI/UX Design",
+      name: "UI/UX Design",
     },
     {
-      imgs: "./public/images/img_04.jpg",
+      imgs: "./public/images/print01.jpg",
       context: "Any Type Of Printing",
-      name: "T - Shirt Printing",
+      name: "Print Design",
     },
   ];
   return (
@@ -25,8 +25,8 @@ const Services = () => {
         <div className="bg-white pb-5 pt-3 text-center" id="services">
           <div className="">
             <p className="heading">Our Core Features</p>
-            <h1 className="services-title">Experience Allows Us To</h1>
-            <h1 className="services-title">Printing Things</h1>
+            <h1 className="services-title">Experience Allows Us To Design &</h1>
+            <h1 className="services-title"> Printing Things</h1>
           </div>
 
           <div className="col-12 d-flex flex-wrap justify-content-center  mt-5">

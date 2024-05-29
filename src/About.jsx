@@ -12,19 +12,19 @@ const about_icon = [
   },
   {
     imgs: "./public/About/online.png",
-    servicename: "Digital Printing",
+    servicename: "Web Design",
     description:
       "Sed ut perspiciat unde omnis iste natus error sit voluptatem accusantium system",
   },
   {
     imgs: "./public/About/3dprinting.png",
-    servicename: "3D Printing",
+    servicename: "UI/UX Design",
     description:
       "Sed ut perspiciat unde omnis iste natus error sit voluptatem accusantium system",
   },
   {
     imgs: "./public/About/setting-icon.png",
-    servicename: "Offest Printing",
+    servicename: "Packaging Design",
     description:
       "Sed ut perspiciat unde omnis iste natus error sit voluptatem accusantium system",
   },
@@ -50,11 +50,24 @@ const About = () => {
                 <div className="ring2"></div>
               </div>
               <div className="about-content">
-                <p className="ms-4 ps-3 opacity-75 fs-6 about-content-p">
-                  Sed ut perspiciatis unde omnis iste natus error volupta
-                  accusantiu dolorem laudantium totam rem aperam eaque quae ab
-                  illo inventore veritatis et quasi architec
-                </p>
+                <div className="d-flex overflow-scroll h-25 overflow-x-hidden">
+                  <p className="ms-4 ps-3 opacity-75 fs-6 about-content-p">
+                    Our team at Shreem Enterprises is dedicated to providing
+                    top-notch digital services to cater to all your needs.
+                    Located in the vibrant city of Bhopal, we pride ourselves on
+                    being a one-stop destination for a wide range of services.
+                    Whether one require assistance with basic tasks such as
+                    photocopying or data entry or seek expertise in more
+                    intricate projects like software development, we are here to
+                    support you every step of the way. With our dedication to
+                    excellence and customer delight, we guarantee a smooth and
+                    successful experience with us. Count on Shreem Enterprises
+                    to realize your digital vision with accuracy and
+                    professionalism. Following the motto "Tech for all," we
+                    spare no effort in delivering top-notch services to
+                    students, professionals, and business owners alike.
+                  </p>
+                </div>
                 <div className="about-cards">
                   {about_icon.map((items) => (
                     <div className=" about-card mt-4 ms-3 p-2">
