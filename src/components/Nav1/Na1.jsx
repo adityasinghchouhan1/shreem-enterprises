@@ -3,13 +3,13 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import image from '../../images/shreem.png'
+import image from '../../images/logo.png'
 import "./Nav1.css";
 
 function Na1() {
   return (
     <>
-      {[ 'md', ].map((expand) => (
+      {[ 'md' ].map((expand) => (
         <Navbar key={expand} expand={expand} className="nav1 bg-nav mb-3 position-fixed top-0 w-100 z-1">
           <Container className="Container fluid ">
 
@@ -17,7 +17,7 @@ function Na1() {
           <img
             src={image} 
             alt="Logo"
-            style={{ width: '30px', marginRight: '10px' }}
+            style={{ width: 'clamp(4rem, 8vw, 5rem)', marginRight: '10px' }}
           />
          
         </a>
