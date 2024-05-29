@@ -13,7 +13,6 @@
   font-weight: 600;
   color: orange;
   font-family: "Pacifico", cursive;
-
 }
 
 .services-title {
@@ -23,6 +22,10 @@
   
 }
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 1330081a77043604ee727284366f61d4b24c7a6b
 
 .service-cards-img {
   width: 130px;
@@ -47,7 +50,12 @@
   margin: 15px;
   height: 190px;
   box-shadow:0 0 10px 0 black;
+<<<<<<< HEAD
+  width: 35rem;
+
+=======
 width: 35rem;
+>>>>>>> 1330081a77043604ee727284366f61d4b24c7a6b
 }
 
 .service-card:hover{
@@ -98,6 +106,7 @@ transition: ease-out 0.2s;
   color: orange;
   width: 120px;
   text-decoration: underline orange;
+  text-decoration-color:red ;
   transition: ease-out 0.5s;
   transform: translateX(10px);
 }

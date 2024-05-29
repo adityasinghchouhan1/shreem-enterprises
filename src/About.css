@@ -10,7 +10,7 @@ padding-bottom: 40px;
 .small-title{
   font-size: 20px;
   font-weight: 600;
-  color: orange;
+  color:#FF4328;
   font-family:"Pacifico", cursive;
 }
 
@@ -130,7 +130,7 @@ height: 500px;
 }
 .about-card:hover{
   box-shadow:0 0 10px 1px orange;
-transition: ease-out 0.2s;
+transition: ease-out 0.4s;
 padding: 5px;
 transform: scale(1.1);
 }
@@ -175,7 +175,8 @@ transform: scale(1.1);
   width: 120px;
 }
 
-.readmore-btn:hover{
+
+ .readmore-btn:hover{
   margin-top: 18px;
   margin-left: 20px;
   background-color:white;

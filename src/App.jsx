@@ -11,6 +11,7 @@ import Team from "./components/team/Team";
 function App() {
   return (
     < >
+<<<<<<< HEAD
     <div className="bg-white position-relative">
     <div className="uparrow">
       <a href="#" id="scroll">
@@ -26,6 +27,21 @@ function App() {
     <TermCondition></TermCondition>
     <Footer></Footer>
   </div>
+=======
+    <div className="bg-white"> 
+       <Na1/> 
+       <MyCarousel/>  
+      <About></About>
+      <ServicesType></ServicesType>
+      <Services></Services>
+<<<<<<< HEAD
+=======
+      <TermCondition/>
+      <Footer/>
+      <GoToTop />
+      </div>
+>>>>>>> 1330081a77043604ee727284366f61d4b24c7a6b
+>>>>>>> f5d7dde65871e800781b4cf8238c0f905c21ead0
     </>
   );
 }
