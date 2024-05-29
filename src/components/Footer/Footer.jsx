@@ -5,8 +5,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer className="footer text-dark pt-4 h-100 w-100 ">
-    
-    <div className="containers "> 
+    <div className="containerrs  "> 
         <div className="row ">
           <div className="col-md-3 mb-4 ">
             <h5 className="lblack ">Shreem Enterprises</h5>
@@ -78,7 +77,7 @@ function Footer() {
         </div>
         
      <div className="row  align-items-center justify-content-lg-between bbox ">
-          <div className="col-md-12 footer-bottom-boxed  ">
+          <div className="col-md-12 footer-bottom-boxed mr-5 ">
             <p className="copyright_text mb-0 text-center  ">&copy; 2024 Shreem Enterprises. All rights reserved.</p>
           </div>
         </div>

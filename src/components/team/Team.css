@@ -30,9 +30,12 @@
 .team-section {
   padding: 20px;
   padding-bottom: 100px;
+  margin-top: 0px;
+  padding-top: 0px;
 }
 
 .team-intro {
+  
   max-width: 1200px;
   margin: 0 auto;
   }
@@ -41,7 +44,7 @@
   }
 
 .team-heading {
-  font-size: 2em;
+  font-size: 1em;
   margin-bottom: 10px;
 }
 

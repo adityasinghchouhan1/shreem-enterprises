@@ -66,7 +66,7 @@ function Team() {
         <p className="team-paragraph">Welcome to our Shreem Enterprises, where creativity meets functionality to transform your ideas into stunning visual realities. Whether you're a startup looking to establish a strong brand identity or an established business aiming to refresh your visual presence, our expert design team is here to bring your vision to life.</p>
       </div>
       <h6 className="team-heading text-center">Join our team</h6>
-      <h1 className="text-center">Meet Our Exclusive <br /> Team Members</h1>
+      <h1 className="text-center fw-bold">Meet Our Exclusive <br /> Team Members</h1>
       <div className="team-container">
         <div className="image-container">
           {/* 1st image */}
