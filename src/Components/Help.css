@@ -15,7 +15,6 @@
     background-color: rgb(26, 30, 93, 0.7);
     top: 0;
     left: 0;
-
 }
 
 .textbox_heading{
@@ -65,7 +64,7 @@
     font-size: 15px;
     white-space: nowrap;
     width: 205px;
-padding: 10px 5;
+    padding: 10px 5;
   }
 
 
