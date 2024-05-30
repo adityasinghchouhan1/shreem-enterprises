@@ -59,6 +59,7 @@ const ServicesType = () => {
                     alt=""
                     className="service-cards-img"
                   />
+
                   <div className="d-flex flex-column">
                     <div className="service-name">
                       <span></span>

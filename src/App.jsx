@@ -6,10 +6,7 @@ import Na1 from "./components/Nav1/Na1";
 import MyCarousel from "./components/myCarousel/MyCarousel";
 import Footer from "./components/Footer/Footer";
 import TermCondition from "./components/termsCondition/TermCondition";
-<<<<<<< HEAD
-=======
 import Team from "./components/team/Team";
->>>>>>> 8b67ccb000716ea4b26593530bd4d0e930991e27
 
 function App() {
   return (
@@ -29,10 +26,6 @@ function App() {
         <Team></Team>
         <Footer></Footer>
       </div>
-<<<<<<< HEAD
-
-=======
->>>>>>> 8b67ccb000716ea4b26593530bd4d0e930991e27
     </>
   );
 }
