@@ -33,7 +33,10 @@ const about_icon = [
 const About = () => {
   return (
     <>
-      <div className="d-flex justify-content-center flex-wrap text-center background-icon pb-5" id="about">
+      <div
+        className="d-flex justify-content-center flex-wrap text-center background-icon pb-5"
+        id="about"
+      >
         <div className="">
           <p className="small-title">About Our Company</p>
           <p className="big-title">
