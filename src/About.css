@@ -10,7 +10,7 @@ padding-bottom: 40px;
 .small-title{
   font-size: 20px;
   font-weight: 600;
-  color:#FF4328;
+  color: orangered;
   font-family:"Pacifico", cursive;
 }
 
@@ -23,14 +23,14 @@ padding-bottom: 40px;
 
 .Group-img{
 width:35rem;
-border-bottom: 10px solid orange;
+border-bottom: 10px solid orangered;
 border-top: 10px solid blue;
 }
 
 .Group-img:hover{
   width:35rem;
   border-bottom: 10px solid blue;
-  border-top: 10px solid orange;
+  border-top: 10px solid orangered;
   filter: blur(1px) saturate(1.2);
   transition: ease-out 0.5s;
   }
@@ -102,7 +102,7 @@ height: 500px;
 
 .about-content-p{
   text-align: start;
-  border-left: 3px solid orange;
+  border-left: 3px solid   orangered;;
   margin: 10px;
 }
 

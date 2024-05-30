@@ -13,7 +13,7 @@ function Na1() {
         <Navbar
           key={expand}
           expand={expand}
-          className="nav1 bg-nav mb-3 position-fixed top-0 w-100 z-3"
+          className="nav1 bg-nav mb-3 position-fixed top-0 w-100 z-3  nav-shadow"
         >
           <Container className="Container fluid ">
             <a className="navbar-brand" href="#">

@@ -1,4 +1,3 @@
-
 import React from "react";
 import "./Footer.css";
 
@@ -52,19 +51,19 @@ function Footer() {
             <p></p>
             <ul className="list-unstyled">
               <li className="mt-2">
-                <i className="fas fa-map-marker-alt "></i> Zone-2, MP nagur, Bhopal
+                <i className="fas fa-map-marker-alt icon-color "></i> Zone-2, MP nagur, Bhopal
               </li>
               <li className="mt-2">
-                <i className="fas fa-phone"></i> (123) 456-7890
+                <i className="fas fa-phone icon-color"></i> (123) 456-7890
               </li>
               <li className="mt-2">
-                <i className="fas fa-envelope"></i> info@shreementerprises.com
+                <i className="fas fa-envelope icon-color"></i> info@shreementerprises.com
               </li>
             </ul>
          <div className=" md-4 m-1 d-flex social-media">
          <ul className="list-unstyled flex-row d-flex gap-3 .footer-social-icons">
          <li>
-          <i class="fa-brands fa-whatsapp fs-3 whatshop  "></i></li>
+         <a href="#"><i class="fa-brands fa-whatsapp fs-3 whatshop  "></i></a> </li>
           <li>
           <i class="fa-brands fa-instagram text-danger fs-3 instra"></i></li>
           <li>
@@ -82,8 +81,6 @@ function Footer() {
           </div>
         </div>
       </div>
-      
-
     </footer>
   );
 }

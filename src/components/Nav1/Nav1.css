@@ -17,3 +17,6 @@ nav .nav-item:hover{
   color: black;
   font-weight: 700;
 }
+.nav-shadow{
+ box-shadow: 0px 0px 5px 0px black;
+}

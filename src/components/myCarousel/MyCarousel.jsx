@@ -119,7 +119,7 @@ function MyCarousel() {
                   </div>
                 </div>
 
-                {/*image */}
+            {/*image */}
                 <div className="col-6 img-container">
                 <CarouselImage text="" imgSrc={shreem1} />
                 </div>
@@ -130,7 +130,7 @@ function MyCarousel() {
               </Carousel.Caption>
               </Carousel.Item>
 
-      {/* Second slid*/}
+         {/* Second slid*/}
             <Carousel.Item interval={1500}>
               <div className="row ">
                 <div className="col-6 ">
